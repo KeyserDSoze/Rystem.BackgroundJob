@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32228.430
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rystem.BackgroundJob", "src\Rystem.BackgroundJob\Rystem.BackgroundJob.csproj", "{C12ACCBE-B1B6-40EA-88C3-4ABD365B63CA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rystem.Test.WebApp", "src\Test\Rystem.BackgroundJob.WebApp\Rystem.Test.WebApp.csproj", "{E5DD04D0-CF13-4DB7-BFC8-2A0A21CCE796}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Rystem.Test", "Rystem.Test", "{17765634-731D-42B8-A5CE-622A8F379499}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2EE4E464-00E2-4AA4-964A-562BB11B609D}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\PackageDeploy.Rystem.BackgroundJob.yml = .github\workflows\PackageDeploy.Rystem.BackgroundJob.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C12ACCBE-B1B6-40EA-88C3-4ABD365B63CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C12ACCBE-B1B6-40EA-88C3-4ABD365B63CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C12ACCBE-B1B6-40EA-88C3-4ABD365B63CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C12ACCBE-B1B6-40EA-88C3-4ABD365B63CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5DD04D0-CF13-4DB7-BFC8-2A0A21CCE796}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5DD04D0-CF13-4DB7-BFC8-2A0A21CCE796}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5DD04D0-CF13-4DB7-BFC8-2A0A21CCE796}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5DD04D0-CF13-4DB7-BFC8-2A0A21CCE796}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E5DD04D0-CF13-4DB7-BFC8-2A0A21CCE796} = {17765634-731D-42B8-A5CE-622A8F379499}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1123B29E-D0F2-4E09-A66F-B9C1ED754D42}
+	EndGlobalSection
+EndGlobal
