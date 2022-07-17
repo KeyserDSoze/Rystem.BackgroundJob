@@ -12,15 +12,15 @@
 		<Copyright>2022</Copyright>
 		<PackageIcon>rystem.backgroundjob.png</PackageIcon>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
-		<RepositoryUrl>https://github.com/KeyserDSoze/RepositoryFramework</RepositoryUrl>
+		<RepositoryUrl>https://github.com/KeyserDSoze/Rystem.BackgroundJob</RepositoryUrl>
 		<PackageId>Rystem.BackgroundJob</PackageId>
-		<Version>1.0.2</Version>
+		<Version>1.0.4</Version>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 	</PropertyGroup>
 
 	<ItemGroup>
-		<PackageReference Include="Rystem.Concurrency" Version="1.0.2" />
+		<PackageReference Include="Rystem.Concurrency" Version="1.0.4" />
 		<PackageReference Include="Cronos" Version="0.7.1" />
 	</ItemGroup>
 
